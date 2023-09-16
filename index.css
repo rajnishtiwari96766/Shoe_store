@@ -10,6 +10,8 @@
     justify-content: space-between;
     flex-direction: row;
     padding: 10px;
+    background-color: black;
+    height: 115px;
 }
 .navbarItems{
     display: flex;
@@ -22,6 +24,15 @@ li{
     padding: 15px;
     width: 120px;
 }
+
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: grey;
+}
+
 input{
     width: 180px;
     height: 35px;
@@ -37,10 +48,11 @@ h1{
 }
 
 .container{
-    background-color: black;
     color: white;
 }
 
-li:hover{
-    color: grey;
+
+.container2{
+    background-color: rgb(189, 117, 117);
+    height: 100vh;  
 }
