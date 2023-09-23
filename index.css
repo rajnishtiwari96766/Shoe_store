@@ -52,41 +52,34 @@ h1{
 
 .container{
     color: white;
-    background: ;
+    /* background: ; */
 }
 
 
 .container2-img {
-    height: 100vh; 
-    display: flex; 
-    flex-direction: row;
+    display: flex;
     justify-content: space-between;
-    /* overflow-y: scroll; */
 }
 
-.img1{
-  padding: 100px;
-  top: 30px;
-  left: 300px;
-  position: relative;
+.sliderimg{
+    width: 100vw;
+    padding: 150px;
+    align-items: left;
+}
+
+/* .img1{
+    width: 50vw;
+    height: 100vh;
 }
 .img2{
-  padding: 100px;
-  top: 30px;
-  left: 605px;
-  position: relative;
+    width: 50vw;
+    height: 100vh;
 }
 .img3{
-  padding: 100px;
-  top: 30px;
-  left: 605px;
-
-  position: relative;
+    width: 100vw;
 }
 .img4{
-  padding: 90px;
-  top: 30px;
-    left: 605px;
+    width: 100vw;
+} */
 
-  position: relative;
-}
+
