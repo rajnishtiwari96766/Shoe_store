@@ -52,6 +52,7 @@ h1{
 
 .container{
     color: white;
+    background: ;
 }
 
 
@@ -66,21 +67,26 @@ h1{
 .img1{
   padding: 100px;
   top: 30px;
+  left: 300px;
   position: relative;
-  /* z-index: 0; */
 }
 .img2{
   padding: 100px;
   top: 30px;
+  left: 605px;
   position: relative;
 }
 .img3{
   padding: 100px;
   top: 30px;
+  left: 605px;
+
   position: relative;
 }
 .img4{
-  padding: 100px;
+  padding: 90px;
   top: 30px;
+    left: 605px;
+
   position: relative;
 }
