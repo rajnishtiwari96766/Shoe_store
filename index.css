@@ -2,7 +2,6 @@
     box-sizing: border-box;
     padding: 0%;
     margin: 0%;
-    /* background-color: beige; */
 }
 
 .navbar{
@@ -35,7 +34,6 @@ a{
 a:hover{
     color: grey;
 }
-
 input{
     width: 180px;
     height: 35px;
@@ -44,42 +42,25 @@ input{
     border-radius: 8px;
     border: none;
 }
-
 h1{
     margin: 7px 10px 2px 2px;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 .container{
     color: white;
-    /* background: ; */
 }
-
-
-.container2-img {
+.container2-img{
     display: flex;
-    justify-content: space-between;
 }
 
 .sliderimg{
     width: 100vw;
-    padding: 150px;
-    align-items: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 100vw;
+    padding-top: 140px;
 }
 
-/* .img1{
-    width: 50vw;
-    height: 100vh;
-}
-.img2{
-    width: 50vw;
-    height: 100vh;
-}
-.img3{
-    width: 100vw;
-}
-.img4{
-    width: 100vw;
-} */
 
 
