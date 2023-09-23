@@ -12,6 +12,9 @@
     padding: 10px;
     background-color: black;
     height: 115px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 .navbarItems{
     display: flex;
@@ -52,7 +55,32 @@ h1{
 }
 
 
-.container2{
-    background-color: rgb(189, 117, 117);
-    height: 100vh;  
+.container2-img {
+    height: 100vh; 
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    /* overflow-y: scroll; */
+}
+
+.img1{
+  padding: 100px;
+  top: 30px;
+  position: relative;
+  /* z-index: 0; */
+}
+.img2{
+  padding: 100px;
+  top: 30px;
+  position: relative;
+}
+.img3{
+  padding: 100px;
+  top: 30px;
+  position: relative;
+}
+.img4{
+  padding: 100px;
+  top: 30px;
+  position: relative;
 }
