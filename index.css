@@ -49,21 +49,24 @@ h1{
 .container{
     color: white;
 }
-.container2-img{
-    display: flex;
+.container2{
+    position: absolute;
+    overflow-x: scroll;
 }
 
 .container2-img{
+    /* position: absolute; */
+    display: flex;
     background: url(pexels-tomás-monteiro-4107897.jpg);
     overflow-x: scroll;
-    /* position: fixed; */
+    transition: all 1s ease-in-out;
 }
 .sliderimg{
     width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 100vw;
+    /* margin-right: -0vw; */
     padding-top: 115px;
 }
 
