@@ -57,7 +57,7 @@ h1{
 .container2-img{
     /* position: absolute; */
     display: flex;
-    background: url(pexels-tomás-monteiro-4107897.jpg);
+    /* background: url(pexels-tomás-monteiro-4107897.jpg); */
     overflow-x: scroll;
     transition: all 1s ease-in-out;
 }
