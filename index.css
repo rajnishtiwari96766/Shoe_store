@@ -55,7 +55,8 @@ h1{
 
 .container2-img{
     background: url(pexels-tomás-monteiro-4107897.jpg);
-    overflow-x: auto;
+    overflow-x: scroll;
+    /* position: fixed; */
 }
 .sliderimg{
     width: 100vw;
