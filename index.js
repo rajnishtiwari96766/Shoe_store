@@ -6,6 +6,6 @@ const items=document.querySelectorAll("li")
 items.forEach((item,index)=>{
     item.addEventListener("click",()=>{
         console.log("you clicked"+index)
-        container2_img.style.transform=`translateX(${-100 * index}vw)`
+        container2_img.style.transform=`translateX(${-50 * index}vw)`
     })
 })
