@@ -8,6 +8,7 @@ li:hover{
     cursor: pointer;
 }
 
+
 .service:hover{
     cursor: pointer;
 }
@@ -17,4 +18,7 @@ li:hover{
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
+}
+.products{
+    display: flex;
 }
