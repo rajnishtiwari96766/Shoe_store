@@ -2,6 +2,7 @@
 
 const container2_img=document.querySelector(".container2-img")
 const items=document.querySelectorAll("li")
+const products=document.querySelector(".products")
 
 items.forEach((item,index)=>{
     item.addEventListener("click",()=>{
