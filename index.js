@@ -2,9 +2,11 @@
 
 const container2_img=document.querySelector(".container2-img")
 const items=document.querySelectorAll("li")
-const product_img=document.querySelector(".product_img")
-const color1=document.querySelector(".color1")
-const color2=document.querySelector(".color2")
+const product_img=document.querySelectorAll(".product_img")
+const color1=document.querySelectorAll(".color1")
+const color2=document.querySelectorAll(".color2")
+// const color3=document.querySelector(".color3")
+// const color4=document.querySelector(".color4")
 
 items.forEach((item,index)=>{
     item.addEventListener("click",()=>{
@@ -20,6 +22,7 @@ color1.addEventListener("click",()=>{
 
 color2.addEventListener("click",()=>{
     console.log("blue clicked")
-    product_img.src="air2.png"
+    product_img.src="jordan.png"
 })
+
 
