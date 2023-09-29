@@ -1,3 +1,6 @@
+.body{
+    background-image:url('pexels-tomás-monteiro-4107897.jpg') ;
+}
 .container2-img{
     display: flex;
     justify-content: space-between;
@@ -23,4 +26,8 @@ p:hover{
 }
 .products{
     display: flex;
+}
+
+.payment{
+    background-color: beige;
 }

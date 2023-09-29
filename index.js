@@ -66,8 +66,11 @@ let chosenProduct=pr[0]
 const pr_Title=document.querySelector('.pr_title')
 const container2_img=document.querySelector(".container2-img")
 const pr_img=document.querySelector(".product_img")
-const pr_color=document.querySelectorAll('.colors')
-
+const pr_color=document.querySelectorAll('.colors p')
+const color1=document.querySelector('.color1')
+const color2=document.querySelector('.color2')
+const buy_btn=document.querySelector('#buy_button')
+const payment=document.querySelector('.payment')
 
 
 items.forEach((item,index)=>{
@@ -87,18 +90,19 @@ items.forEach((item,index)=>{
         })
     })
 })
+color1.addEventListener("click",()=>{
+    console.log("black clicked") 
+    pr_img.src=chosenProduct.colors[0].img
+})
 
-//this is hard-coded method...
+color2.addEventListener("click",()=>{
+    console.log("blue clicked")
+    pr_img.src=chosenProduct.colors[1].img
+})
 
-// color1.addEventListener("click",()=>{
-//     console.log("black clicked") 
-//     product_img.src="air.png"
-// })
-
-// color2.addEventListener("click",()=>{
-//     console.log("blue clicked")
-//     product_img.src="air2.png"
-// })
+buy_btn.addEventListener('click',()=>{
+    console.log("buyed")
+})
 
 
 
