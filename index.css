@@ -1,6 +1,28 @@
-.body{
-    background-image:url('pexels-tomás-monteiro-4107897.jpg') ;
+*{
+    padding: 0px;
+    margin: 0px;
 }
+.container{
+    background-color: black;
+    color: white;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding:20px
+}
+.navbarItems {
+    display: flex;
+    gap: 40px;
+}
+input{
+    height: 30px;
+}
+li{
+    list-style: none;
+    /* padding: 40px;  */
+  }
+
 .container2-img{
     display: flex;
     justify-content: space-between;
@@ -28,6 +50,3 @@ p:hover{
     display: flex;
 }
 
-.payment{
-    background-color: beige;
-}
