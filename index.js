@@ -76,7 +76,7 @@ const payment=document.querySelector('.payment')
 items.forEach((item,index)=>{
     item.addEventListener("click",()=>{
         //image displayed in slider
-        container2_img.style.transform=`translateX(${-50 * index}vw)`
+        container2_img.style.transform=`translateX(${-100 * index}vw)`
 
         //for products to be displayed it will be the clicked item
         chosenProduct=pr[index]
