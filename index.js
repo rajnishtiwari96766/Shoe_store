@@ -73,6 +73,10 @@ const buy_btn=document.querySelector('#buy_button')
 const payment=document.querySelector('.payment')
 const cancel_btn=document.querySelector('.cancel')
 const place_order=document.querySelector('.order')
+const insta=document.querySelector('.insta')
+const twitter=document.querySelector('.twitter')
+const linkedin=document.querySelector('.linkedin')
+const facebook=document.querySelector('.facebook')
 
 items.forEach((item,index)=>{
     item.addEventListener("click",()=>{
@@ -110,5 +114,6 @@ cancel_btn.addEventListener('click',()=>{
 })
 
 place_order.addEventListener('click',()=>{
+    payment.style.visibility="hidden"
     alert('Order PLaced')
 })

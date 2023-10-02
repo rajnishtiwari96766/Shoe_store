@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: rgb(207, 207, 207);
+    background-color: gray;
 }
 
 .container{
@@ -47,7 +47,7 @@ li:hover{
     text-underline-position: below;
 }  
 .navbar>h1:hover{
-    zoom: 1.01;
+    zoom: 1.03;
 }
 /* //-----------------------------------------------------// */
 
@@ -147,7 +147,7 @@ p:hover{
     position: absolute;
     justify-content: center;
     align-items: center;
-    top: 50%;
+    top: 100vw;
     left: 50%;
     transform: translate(-50%,-50%) ;
     visibility: hidden;
@@ -161,3 +161,21 @@ p:hover{
     font-weight: bolder;
 }
 
+/* //------------------------------------------------------// */
+.links p{
+    margin: 10px 10px 10px 10px;
+    padding: 10px;
+    color: white;
+}
+.links{
+    position: fixed;
+    background-color: black;
+    width: 70px;
+    padding: 1px;
+    align-items: center;
+    top: 30%;
+}
+
+.links p:hover{
+   color: gray;
+}
