@@ -71,6 +71,7 @@ const color1=document.querySelector('.color1')
 const color2=document.querySelector('.color2')
 const buy_btn=document.querySelector('#buy_button')
 const payment=document.querySelector('.payment')
+const cancel_btn=document.querySelector('.cancel')
 
 
 items.forEach((item,index)=>{
@@ -101,8 +102,10 @@ color2.addEventListener("click",()=>{
 })
 
 buy_btn.addEventListener('click',()=>{
-    console.log("buyed")
+    payment.style.visibility="visible"
 })
 
-
+cancel_btn.addEventListener('click',()=>{
+    payment.style.visibility="hidden"
+})
 
