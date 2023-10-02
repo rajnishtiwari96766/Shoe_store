@@ -70,7 +70,7 @@ li:hover{
     font-family: 'Mooli', sans-serif;
 }
 .container2-img{
-    display: flex;`
+    display: flex;
     justify-content: space-between;
     flex-direction: row;
 }
@@ -86,5 +86,71 @@ p:hover{
 }
 .products{
     display: flex;
+}
+
+#buy_button{
+    width:15%;
+    height: 5%;
+    padding: 2px;
+}
+
+/* //-----------------------------------------------------// */
+
+.payment{
+    /* display: flex; */
+    text-align: center;
+    background-color: white;
+    width: 50vw;
+    padding: 15px;
+    border-radius: 5px;
+}
+.payment>h1{
+    margin-bottom: 20px;
+}
+.cancel{
+    position: absolute;
+    top: 25px;
+    right: 45px;
+    width: 30px;
+    height: 30px;
+    padding: 6px;
+    border: none;
+    font-weight: bolder;
+}
+.cancel:hover{
+    background-color: rgb(199, 199, 199);
+}
+.card_info{
+    text-align: left;
+    margin-left: 20px;
+    padding-bottom: 20px;
+    text-decoration: underline;
+}
+.payment>p{
+    text-align: left;
+    margin-left: 16px;
+}
+.payment>input{
+    color: black;
+    background-color: white;
+    border-bottom: 1px solid black;
+    width: 95%;
+    margin-bottom: 20px;
+}
+
+.container5{
+    position: absolute;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    margin: 200px 30px 30px 400px;
+}
+
+.order{
+    width:15%;
+    height: 5%;
+    padding: 2px;
+    font-weight: bolder;
 }
 
