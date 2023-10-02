@@ -1,3 +1,5 @@
+// const { Link } = require("react-router-dom")
+
 const items=document.querySelectorAll("li")
 
 const pr=[
@@ -116,4 +118,17 @@ cancel_btn.addEventListener('click',()=>{
 place_order.addEventListener('click',()=>{
     payment.style.visibility="hidden"
     alert('Order PLaced')
+})
+
+insta.addEventListener('click',()=>{
+    window.open("https://www.instagram.com")
+})
+twitter.addEventListener('click',()=>{
+    window.open("https://www.twitter.com")
+})
+linkedin.addEventListener('click',()=>{
+    window.open("https://www.linkedin.com")
+})
+facebook.addEventListener('click',()=>{
+    window.open("https://www.facebook.com")
 })
