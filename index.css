@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: rgb(172, 167, 167);
+    background-color: rgb(207, 207, 207);
 }
 
 .container{
@@ -92,12 +92,16 @@ p:hover{
     width:15%;
     height: 5%;
     padding: 2px;
+    border-radius: 5px;
+}
+#buy_button:hover{
+    cursor: pointer;
+    background-color: beige;
 }
 
 /* //-----------------------------------------------------// */
 
 .payment{
-    /* display: flex; */
     text-align: center;
     background-color: white;
     width: 50vw;
@@ -141,22 +145,14 @@ p:hover{
 
 .container5{
     position: absolute;
-    z-index: 1;
     justify-content: center;
     align-items: center;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%) ;
-    /* margin: 200px 30px 30px 400px; */
     visibility: hidden;
     transition: transform 1s;
 }
-
-/* .open-container5{
-    visibility: visible;
-    top: 50%;
-    transform: translate(-50%,-50%) scale(1);
-} */
 
 .order{
     width:15%;

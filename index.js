@@ -72,7 +72,7 @@ const color2=document.querySelector('.color2')
 const buy_btn=document.querySelector('#buy_button')
 const payment=document.querySelector('.payment')
 const cancel_btn=document.querySelector('.cancel')
-
+const place_order=document.querySelector('.order')
 
 items.forEach((item,index)=>{
     item.addEventListener("click",()=>{
@@ -109,3 +109,6 @@ cancel_btn.addEventListener('click',()=>{
     payment.style.visibility="hidden"
 })
 
+place_order.addEventListener('click',()=>{
+    alert('Order PLaced')
+})
