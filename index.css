@@ -149,6 +149,7 @@ p:hover{
     transform: translate(-50%,-50%) ;
     /* margin: 200px 30px 30px 400px; */
     visibility: hidden;
+    transition: transform 1s;
 }
 
 /* .open-container5{
